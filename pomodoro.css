@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+}
+
+.pomodoro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pomodoro__time {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 5px;
+  color: #fff;
+
+  font-size: 40px;
+}
+
+.pomodoro__time * {
+  margin-left: 10px;
+}
+
+/* BUTTON */
+
+.time__button button {
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  background-color: rgb(173, 48, 3);
+  border: none;
+  border-radius: 10px;
+  transition: 0.4s;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+}
+
+.time__button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
