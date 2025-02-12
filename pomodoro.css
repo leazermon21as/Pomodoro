@@ -34,6 +34,7 @@ h1 {
   border: none;
   border-radius: 10px;
   transition: 0.4s;
+  margin-left: 10px;
 
   &:hover {
     opacity: 0.6;
